@@ -1,0 +1,130 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url("https://fonts.googleapis.com/css?family=Roboto: regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: roboto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 100px;
+}
+/* ------------------------------ */
+.who-we-are {
+	margin: 0px 0px 40px 0px;
+}
+.who-we-are__container {
+	max-width: 846px;
+	margin: 0px auto;
+}
+.who-we-are__header {
+	margin: 0px 0px 36px 0px;
+}
+.title {
+}
+.title__header {
+	background: url("../img/OverlineMark.svg") 0 -4px no-repeat;
+	padding: 0px 0px 0px 33px;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	line-height: 1.71;
+	color: #4b4b4b;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 0px 33px 0px;
+}
+.title__subtitle {
+	width: 583px;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133c;
+	font-weight: 900;
+}
+[class*="__container"] {
+	width: 1020px;
+	margin: 0px auto;
+}
+.who-we-are__text {
+	line-height: 1.28;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+	margin: 0px 0px 54px 0px;
+}
+.our-promise-to-you {
+	margin: 0px 0px 40px 0px;
+}
+.our-promise-to-you__container {
+}
+.our-promise-to-you__header {
+	margin: 0px 0px 68px 0px;
+}
+.our-promise-to-you__body {
+	display: flex;
+	flex: 0 0 33.333%;
+	margin: 0 -12px;
+}
+.our-promise-to-you__column {
+	display: flex;
+	padding: 0 12px;
+}
+.our-promise-to-you__column img {
+	padding: 0px 23px 0px 0px;
+}
+.our-promise-to-you__content {
+	display: flex;
+	flex-direction: column;
+}
+.our-promise-to-you__title {
+	font-weight: 900;
+	line-height: 1.17;
+	color: #02133c;
+	margin: 0px 0px 20px 0px;
+}
+.our-promise-to-you__text {
+	line-height: 1.28;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
